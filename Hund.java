@@ -1,19 +1,30 @@
 
 public class Hund extends Tier {
 
-	protected int anzahlZähne;
+	protected int anzahlZÃ¤hne;
+	protected String breed;
 
-	public Hund(int height, int anzahlZähne) {
+	public Hund(int height, int anzahlZÃ¤hne, String breed) {
 		super(height);
-		this.anzahlZähne = anzahlZähne;
+		this.anzahlZÃ¤hne = anzahlZÃ¤hne;
+		this.breed = breed;
 	}
 
-	public int getanzahlZähne() {
-		return anzahlZähne;
+	public int getAnzahlZÃ¤hne() {
+		return anzahlZÃ¤hne;
 	}
 
-	public void setanzahlZähne(int anzahlZähne) {
-		this.anzahlZähne = anzahlZähne;
+	public void setAnzahlZÃ¤hne(int anzahlZÃ¤hne) {
+		this.anzahlZÃ¤hne = anzahlZÃ¤hne;
+	}
+
+	public String getBreed() {
+		return breed;
+	}
+
+	public void setBreed(String breed) {
+		this.breed = breed;
 	}
 	
 }
+
